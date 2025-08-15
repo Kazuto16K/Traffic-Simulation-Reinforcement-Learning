@@ -1,0 +1,19 @@
+<edges>
+    <!-- Incoming edges -->
+    <!-- <edge id="north_in" from="north" to="center" numLanes="1" speed="13.9"/> -->
+    <edge id="north_in" from="north" to="center" priority="-1" numLanes="1" speed="13.9" length="200">
+        <lane id="north_in_0" index="0" speed="13.9" length="200" width="15.0"/>
+    </edge>
+    <edge id="south_in" from="south" to="center" numLanes="1" speed="13.9"/>
+    <edge id="east_in"  from="east"  to="center" numLanes="1" speed="13.9"/>
+    <edge id="west_in"  from="west"  to="center" numLanes="1" speed="13.9"/>
+
+    <!-- Outgoing edges -->
+    <!-- <edge id="north_out" from="center" to="north" numLanes="1" speed="13.9"/> -->
+    <edge id="north_out" from="center" to="north" priority="-1" numLanes="1" speed="13.9" length="200"/>
+    <edge id="south_out" from="center" to="south" numLanes="1" speed="13.9"/>
+    <edge id="east_out"  from="center" to="east"  numLanes="1" speed="13.9"/>
+    <edge id="west_out"  from="center" to="west"  numLanes="1" speed="13.9"/>
+</edges>
+
+
