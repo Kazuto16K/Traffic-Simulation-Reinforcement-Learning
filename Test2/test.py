@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sumo_traffic_env import SumoTrafficEnv  # Your SUMO environment class
 
 # ======== PARAMETERS ========
-MODEL_PATH = "traffic_dqn.h5"  # Saved model path
+MODEL_PATH = "dqn_traffic_model.h5"  # Saved model path
 EPISODES = 10                   # Number of test runs
 RENDER = False                  # Whether to visualize SUMO GUI
 
